@@ -1,0 +1,73 @@
+body{
+    background-color: #9BABB8;
+}
+.task-manager{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+
+}
+.tasks{
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #2E4F4F;
+}
+.task{
+    background-color: #0E8388;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.task.completed{
+    opacity: 0.5;;
+}
+.task.span.content{
+    flex-grow: 1;
+    color: white;
+}
+.task input.edit-input{
+    flex-grow: 1;
+}
+button{
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: white;
+    font-size: 13px;
+   cursor: pointer;
+}
+.edit{
+    background-color:rgb(15, 118, 202);
+}
+.delete{
+    background-color: rgb(199, 37, 78);
+}
+.save{
+    background-color: green;
+}
+.add-task-container button{
+    background-color: green;
+}
+input{
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 8px 12px;
+}
+.add-task-container{
+    width: 440px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+}
+.add-task-container input{
+    flex-grow: 1;
+
+}
